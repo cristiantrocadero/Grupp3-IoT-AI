@@ -11,9 +11,11 @@ http = urllib3.PoolManager()
 
 # Constants for Rekognition model and geolocation API
 CUSTOM_MODEL_ARN = (
-# Vill inte dela med mig av min ARN
+    "arn:aws:rekognition:us-east-1:904233095489"
+    ":project/carCleanliness/version/carCleanliness."
+    "2025-04-08T10.16.40/1744100201251"
 )
-OPENCAGE_API_KEY = # Vill inte dela med mig av min OpenCage api key
+OPENCAGE_API_KEY = "96492111890640d2acdf64ac1193d650"
 
 def lambda_handler(event, context):
     """Main Lambda handler triggered by Amazon Lex"""
