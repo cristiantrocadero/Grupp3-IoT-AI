@@ -1,7 +1,7 @@
 boto3
 botocore
-Pillow           # Om ni jobbar med bildhantering lokalt innan ni skickar till Rekognition
-requests         # Om ni behöver göra externa HTTP-anrop
+Pillow           
+requests         
 streamlit
 
 
