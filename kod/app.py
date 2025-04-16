@@ -19,7 +19,7 @@ s3_client = boto3.client(
 )
 
 # --- Streamlit Layout ---
-st.set_page_config(page_title="Car Cleanliness Chatbot", page_icon="🚗", layout="wide")
+st.set_page_config(page_title="Car & Weather Chatbot", page_icon="🚗", layout="wide")
 col1, col2 = st.columns([1, 2])
 
 # --- LEFT COLUMN: S3 Image List ---
@@ -52,8 +52,8 @@ with col1:
 
 # --- RIGHT COLUMN: Lex Chatbot ---
 with col2:
-    st.title("🚗 Car Cleanliness Chatbot 🤖")
-    st.write("Use a message like: *Does the car that just entered need cleaning?*")
+    st.title("🚗 Car & Weather Chatbot 🤖")
+    st.write("Use a message like: *'Does the car that just entered need cleaning?'* & '*What is the weather?*'")
 
     if "session_id" not in st.session_state:
         st.session_state.session_id = str(uuid.uuid4())
