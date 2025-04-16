@@ -136,9 +136,9 @@ The `lambda_combine_car+weather_chatbot.py` file contains the logic for:
 
 2. In your browser:
    - 💬 **Weather Forecast (GetWeather intent)**:
-     1. Start by saying: `"I want to know the weather."`
-     2. The bot will ask: `"Which city?"` → respond with e.g. `"Gothenburg"`
-     3. Then: `"What date?"` → respond with e.g. `"today"`
+     1. Start by saying: `"What is the weather?"`
+     2. The bot will ask: `"Which city do you want to know?"` → respond with e.g. `"Gothenburg"`
+     3. Then: `"What date do you need?"` → respond with e.g. `"today"`
    
    - 🚗 **Car Cleanliness Check (CarCheck intent)**:
      1. Start by asking: `"Does the car that just entered need cleaning?"`
